@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="login.css">
+<title>Motivate You!: Login</title>
+
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+<link rel="stylesheet" href="loader.css">
+<div style="display:none;" id="myDiv" class="animate-bottom">  
+
+<p class="hoy">Motivate You!</p>
+<form name="loginform" onSubmit="return validateForm();" action="motivate.html" method="post">
+ <div class="imgcontainer">
+    <img src="nyan.gif" alt="Avatar" class="avatar">
+  </div>
+
+<p class="one"><label><b>Username:</b></label></p>
+<input type="text" name="usr" placeholder="Username"> 
+<p class="two"><label><b>Password:</b></label></p>
+<input type="password" name="pword" placeholder="Password">
+</br> </br>
+<button type="submit">Login</button>
+ </div>
+  </form>
+</div>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
+function validateForm() {
+        var un = document.loginform.usr.value;
+        var pw = document.loginform.pword.value;
+        var username = "username"; 
+        var password = "password";
+
+        if ((un == "franz") && (pw == "password")) {
+	    document.getElementById("demo").innerHTML = "Welcome. " + un;
+            return true;
+        }
+	if (( un == "" ) && ( pw == "" )) {
+    	alert("Username and password are required.");
+    	return false;
+    	}
+	if ( un == "" ) {
+    	alert("Username is required.");
+    	return false;
+    	}
+	if ( pw == "" ) {
+    	alert("Password is required.");
+    	return false;
+    	}
+        else {
+            alert ("Incorrect Username or Password.");
+	    document.loginform.reset();
+            return false;
+	    
+        }
+  }
+
+</script>
+
+
+</body>
+</html>

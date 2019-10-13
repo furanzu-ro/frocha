@@ -1,0 +1,66 @@
+body{
+  display: block;
+  color: white;
+  text-align: center;
+  background-image: url("fire3.gif");
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+
+
+p.one {
+  color: white;
+  font-family: verdana;
+  font-size: 120%;
+}
+
+p.two {
+  color: white;
+  font-family: verdana;
+  font-size: 120%;
+}
+
+input[type=text], input[type=password] {
+  width: 20%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  margin: 6px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+
+p.hoy {
+  color: white;
+  font-size: 450%;
+  font-family: verdana;
+}
