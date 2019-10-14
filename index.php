@@ -17,7 +17,7 @@
 
 </br> 
 </section>
-<a href="login.html"><button class="button"><span>Let's Go</span></button></a>
+<a href="login.html"><button class="button"><span>Login</span></button></a>
 
 
 
