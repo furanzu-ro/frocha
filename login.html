@@ -5,11 +5,6 @@
 <link rel="stylesheet" href="login.css">
 <title>Login: Motivate You!</title>
 
-<body onload="myFunction()" style="margin:0;">
-
-<div id="loader"></div>
-<link rel="stylesheet" href="loader.css">
-<div style="display:none;" id="myDiv" class="animate-bottom">  
 
 <p class="hoy">Motivate You!</p>
 <form name="loginform" onSubmit="return validateForm();" action="motivate.html" method="post">
@@ -23,20 +18,9 @@
  </div>
   </form>
 </div>
-</div>
+
 
 <script>
-var myVar;
-
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-
 function validateForm() {
         var un = document.loginform.usr.value;
         var pw = document.loginform.pword.value;
