@@ -13,7 +13,7 @@
 
 <section>
 <p class="hoy">Motivate You!</p>
-<p class="popo">Feeling sad? </br> Feeling empty? </br> No worries we're here to cheer you up and </br> keep you motivated with our handpicked quotes.</p>
+<p class="popo">Feeling sad? </br> Feeling empty? </br> No worries we're here to cheer you up and </br> keep you motivated in life with our handpick quotes and stories.</p>
 
 </br> 
 </section>
