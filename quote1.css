@@ -1,0 +1,49 @@
+body, head {
+  display: block;
+  font-size: 22px;
+  color: white;
+  text-align: center; 
+  background-image: url("willrogers.gif");
+  background-size:cover;
+  background-attachment: fixed;
+  font-family: arial;
+}
+
+.ml6 {
+  position: relative;
+  font-weight: 800;
+  font-size: 3.2em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+button {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+button:hover {
+    color: #001F3F;
+    background-color: #fff;
+}

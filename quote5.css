@@ -1,0 +1,44 @@
+body, head {
+  display: block;
+  font-size: 22px;
+  color: white;
+  text-align: center; 
+  background-image: url("stars.gif");
+  background-size:cover;
+  background-attachment: fixed;
+  font-family: arial;
+}
+
+
+.ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.5em;
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0; 
+}
+
+button {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+button:hover {
+    color: #001F3F;
+    background-color: #fff;
+}

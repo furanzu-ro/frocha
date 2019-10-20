@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="stories.css">
+<link rel="stylesheet" href="buttons.css">
+
+<title>Stories: Motivate You!</title>
+
+</div>
+<div class="header">
+<p class="hoy">Motivate You!</p>
+  <div class="header-right">
+    <a href="motivate.html">Home</a>
+    <a href="quotes.html">Quotes</a>
+    <a class="active" href="stories.html">Stories</a>
+    <a href="about.html">About</a>
+    <a href= "index.php">Log-out</a></a>
+    
+  </div>
+</div>
+
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+<link rel="stylesheet" href="loader.css">
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+
+</br></br>
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">List of Stories</span>
+  <span class="border"></br></br>These motivational stories will encourage you to follow your dreams, treat others with kindness,</br>and never give up on yourself.</span>
+  </div>
+</div>
+
+</br></br>
+ 
+<div class="caption">
+<img src="frogs.jpg">
+ </br></br> <span class="border">“The Group of Frogs”<br> As a group of frogs was traveling through the woods, two of them fell into a deep pit.</br> When the other frogs crowded around the pit....</span></br></br></br>
+<a href="story1.html" class="action-button shadow animate blue">Read</a>
+</br></br></br><img src="butterfly.jpg" width="400" height="290">
+ </br></br> <span class="border">“The Butterfly”<br> A man found a cocoon of a butterfly.One day a small opening appeared.</br> He sat and watched the butterfly for several hours as it struggled to force its body through....</span></br></br></br>
+<a href="story2.html" class="action-button shadow animate red">Read</a>
+</div>
+</div>
+            
+</div>
+</div>
+</br></br>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
+</script>
+
+</body>
+</html>
